@@ -1,0 +1,141 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Profile */
+
+.profile-card {
+  background-color: var(--navy-900);
+}
+
+.profile-card {
+  border-radius: 15px;
+}
+
+.profile-card * {
+  margin: 0px;
+}
+
+.profile-card-avatar {
+  background-color: var(--purple-600);
+  padding: 32px;
+  display: flex;
+  gap: 24px;
+  border-radius: 15px;
+}
+
+.profile-image {
+  width: 64px;
+  height: auto;
+  border-radius: 50px;
+  border: 3px solid var(--white);
+}
+
+.profile-card-avatar p {
+  color: var(--navy-200);
+}
+
+.profile-card-avatar h1 {
+  color: var(--white);
+}
+
+/* Profile buttons */
+.profile-card-buttons {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  color: var(--white);
+}
+
+/* Activity card */
+
+.activity-card * {
+  margin: 0;
+}
+
+.activity-card {
+  padding-top: 38px;
+  border-radius: 15px;
+}
+
+.activity-card-content {
+  background-color: var(--navy-900);
+  border-radius: 15px;
+}
+
+.activity-card-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding: 27.5px 24px 8px 24px;
+}
+
+.activity-card-activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding: 0px 24px 24px 24px;
+}
+
+.activity-card-activity p:nth-of-type(2) {
+  color: var(--navy-200);
+}
+
+/*Activity card work*/
+
+.work {
+  background-color: var(--orange-300);
+  background-image: url(images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: top -10.91px right 17.42px;
+}
+
+/* Activity card play */
+
+.play {
+  background-color: var(--blue-300);
+  background-image: url(images/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: top -14.4px right 11px;
+}
+
+/* Activity card study */
+
+.study {
+  background-color: var(--pink-400);
+  background-image: url(images/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: top -6.05px right 17.07px;
+}
+
+/* Activity card exercise */
+
+.exercise {
+  background-color: var(--green-400);
+  background-image: url(images/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: top -0.42px right 17.62px;
+}
+
+/* Activity card social */
+
+.social {
+  background-color: var(--purple-700);
+  background-image: url(images/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: top -15px right 7.21px;
+}
+
+/* Activity card self care */
+
+.selfcare {
+  background-color: var(--yellow-300);
+  background-image: url(images/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: top -18.79px right 13.48px;
+}

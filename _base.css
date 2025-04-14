@@ -1,0 +1,64 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Navy */
+  --navy-950: #0e1325;
+  --navy-900: #1c2048;
+  --navy-800: #33397a;
+  --navy-200: #bbcdff;
+
+  /* Orange */
+  --orange-300: #ff8864;
+
+  /* Purple */
+  --purple-700: #7335d2;
+  --purple-600: #5747ea;
+  --purple-500: #7070c9;
+
+  /* Blue */
+  --blue-300: #55c2e6;
+
+  /* Pink */
+  --pink-400: #ff5e7d;
+
+  /* Green */
+  --green-400: #4bcf82;
+
+  /* Yellow */
+  --yellow-300: #f1c75b;
+
+  /* Grey */
+  --grey-200: #d8d8d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--navy-950);
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* button reset */
+
+.ax-button {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+}

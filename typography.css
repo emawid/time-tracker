@@ -1,0 +1,47 @@
+.text-preset-1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0px;
+}
+
+.text-preset-4 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.text-preset-5 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+
+.text-preset-6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
