@@ -4,6 +4,10 @@ main {
   gap: 24px;
 }
 
+.active {
+  color: var(--white);
+}
+
 /* Profile */
 
 .profile-card {
@@ -47,7 +51,7 @@ main {
   padding-bottom: 25px;
   display: flex;
   justify-content: space-around;
-  color: var(--white);
+  color: var(--purple-500);
 }
 
 /* Activity card */
@@ -59,6 +63,7 @@ main {
 .activity-card {
   padding-top: 38px;
   border-radius: 15px;
+  display: grid;
 }
 
 .activity-card-content {
@@ -142,7 +147,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 218px);
     grid-template-areas: 'profile profile profile';
   }
 
@@ -176,5 +181,44 @@ main {
 
   .profile-card-buttons {
     padding-inline: 134.5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    grid-template-columns: repeat(4, 255px);
+    grid-template-areas:
+      'profile activity activity activity'
+      'profile activity activity activity';
+  }
+
+  .profile-card {
+    grid-area: profile;
+  }
+
+  .profile-card-buttons {
+    padding-inline: 0;
+    padding: 28px 0 32px 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 21px;
+  }
+
+  .profile-card-avatar {
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 92px;
+  }
+
+  .name-wrapper h1 {
+    font-size: 40px;
+  }
+
+  .name-wrapper {
+    gap: 0px;
+  }
+
+  .profile-image {
+    width: 78px;
   }
 }
