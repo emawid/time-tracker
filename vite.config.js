@@ -1,4 +1,4 @@
 export default {
-  // config options
+  //config options
   base: '/time-tracker/',
 };
