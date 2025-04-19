@@ -9,7 +9,7 @@ const previous = document.querySelectorAll('.previous');
 
 //Callback to fetch data from JSON file and render it
 const getData = async time => {
-  const response = await fetch('data.json');
+  const response = await fetch('/data.json');
   const data = await response.json();
 
   current.forEach((element, index) => {
