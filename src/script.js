@@ -29,18 +29,19 @@ const getData = async time => {
   });
 };
 
+//Function to toggle active class
+
+const toggleActiveClass = clickedButton => {
+  buttons.forEach(btn => btn.classList.remove('active'));
+  clickedButton.classList.add('active');
+};
+
 //Listen to click events on buttons and render data
 buttons.forEach(button => {
   //render data on click
   button.addEventListener('click', e => {
     getData(e.target.id);
-
-    //remove active class from all buttons
-    buttons.forEach(btn => {
-      btn.classList.remove('active');
-    });
-    //add active class to the clicked button
-    e.target.classList.add('active');
+    toggleActiveClass(e.target);
   });
 });
 
